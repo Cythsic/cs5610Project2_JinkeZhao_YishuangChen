@@ -1,0 +1,67 @@
+#box {
+    color: black;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.white:hover {
+    background-color: gray;
+}
+
+@media screen and (max-width: 550px) {
+    #box {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.white {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.green {
+    background-color: yellowgreen;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+    color: black;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
